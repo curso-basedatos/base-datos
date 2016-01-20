@@ -1,5 +1,5 @@
-# Base de datos II
-curso de base de datos con oracle
+# Curso de base de datos con oracle 11g/12c
+En este curso veremos principalmente el lenguaje de programación PL/SQL, pide la bibliografía al profesor
 
 ## Normalización
  Existen 3 formas normales para poder verificar que una base de datos este bien diseñada. La normalización de una base de datos nos garantiza la **integridad de datos**
