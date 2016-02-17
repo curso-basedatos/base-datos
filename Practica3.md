@@ -53,6 +53,9 @@ SELECT * FROM SUCURSAL;
 2. Realizar una consulta para saber los vendedores en que sucursales han laborado. Para ello utilizar cursores. Anota el resultado de ejecucion en la ventana de salidas.
 Contrasta el resultado con la siguiente consulta con joins:
 ```sql
-SELECT EMPLEADO_VENTAS.ID_CLIENTE, EMPLEADO_VENTAS.NOMBRE_CLIENTE, SUCURSAL.NOMBRE FROM EMPLEADO_VENTAS JOIN SUCURSAL  ON EMPLEADO_VENTAS.ID_CLIENTE=SUCURSAL.ID_CLIENTE;
+SELECT EMPLEADO_VENTAS.ID_CLIENTE, EMPLEADO_VENTAS.NOMBRE_CLIENTE, SUCU5RSAL.NOMBRE FROM EMPLEADO_VENTAS JOIN SUCURSAL  ON EMPLEADO_VENTAS.ID_CLIENTE=SUCURSAL.ID_CLIENTE;
 ```
 Anota el resultado obtenido en su tiempo de ejecucion. ¿Que observas?
+
+3. Elabora una consulta que obtenga el nombre del vendedor y las ventas realizadas por totales por dicho vendedor, por el total de las tiendas en las que esuvo. Debe haber una columna adicional donde debe apacer un campo premio, el cual se obtiene 
+con la siguiente formula premio= (sueldo base del trabajador  + ventas totales)*0.15;
