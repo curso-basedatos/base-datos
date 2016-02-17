@@ -5,21 +5,6 @@ En esta practica vas a usar cursores explicitos para usar uniones de tablas
 
 ```sql
 
-CREATE TABLE libros (
-book_id
- INTEGER,
-isbn
- VARCHAR2(13),
-titulo
- VARCHAR2(200),
-resumen
- VARCHAR2(2000),
-autor
- VARCHAR2(200),
-fecha_publiccion DATE,
-num_pag
- NUMBER
-);
 
 CREATE TABLE EMPLEADO_VENTAS (
 id_cliente NUMBER,
@@ -27,12 +12,12 @@ nombre_cliente VARCHAR2 (100),
 SUELDO_BASE NUMBER,
 CONSTRAINT PK_ID_CLIENTE PRIMARY KEY (ID_CLIENTE));
 
+insert into EMPLEADO_VENTAS values(1,'Juan',5200);
+insert into EMPLEADO_VENTAS values(2,'Petra',4200);
+insert into EMPLEADO_VENTAS values(3,'Panfilo',6400);
+insert into EMPLEADO_VENTAS values(4,'Anacleta',5700);
+insert into EMPLEADO_VENTAS values(5,'Chana',4600);
 
-insert into EMPLEADO_VENTAS values(1, 'Juan',5200);
-insert into EMPLEADO_VENTAS values(2, 'Petra',4200);
-insert into EMPLEADO_VENTAS values(3, 'Panfilo',6400);
-insert into EMPLEADO_VENTAS values(4, 'Anacleta',5700);
-insert into EMPLEADO_VENTAS values(5, 'Chana',4600);
 
 select * from EMPLEADO_VENTAS;
 
@@ -59,6 +44,9 @@ INSERT INTO SUCURSAL VALUES(11,5,'PERISUR', '67 55 66 77',4000);
 INSERT INTO SUCURSAL VALUES(12,5,'PERISUR', '67 55 66 77',4000);
 INSERT INTO SUCURSAL VALUES(13,5,'PLAZA COYOACAN', '67 55 66 77',4000);
 
-```
+SELECT * FROM SUCURSAL;
 
+```
+###Actividades
+1. Desarrollar un bLoque PL SQL que  utilizando un cursor nos de el nombre del empleaod y las ventas que este hizo. Utilizar para ello un cursor explicito.
 
