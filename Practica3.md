@@ -61,7 +61,4 @@ INSERT INTO SUCURSAL VALUES(13,5,'PLAZA COYOACAN', '67 55 66 77',4000);
 
 ```
 
-    Status API Training Shop Blog About Pricing 
-
-    © 2016 GitHub, Inc. Terms Privacy Security Contact Help 
 
