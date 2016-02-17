@@ -50,4 +50,9 @@ SELECT * FROM SUCURSAL;
 ###Actividades
 1. Desarrollar un bLoque PL SQL que  utilizando un cursor nos de el nombre del empledo y su sueldo base. Utilizar para ello un cursor explicito.
 
-2. Realizar una consulta para saber los vendedores en que sucursales han laborado. Para ello utilizar cursores
+2. Realizar una consulta para saber los vendedores en que sucursales han laborado. Para ello utilizar cursores. Anota el resultado de ejecucion en la ventana de salidas.
+Contrasta el resultado con la siguiente consulta con joins:
+```sql
+SELECT EMPLEADO_VENTAS.ID_CLIENTE, EMPLEADO_VENTAS.NOMBRE_CLIENTE, SUCURSAL.NOMBRE FROM EMPLEADO_VENTAS JOIN SUCURSAL  ON EMPLEADO_VENTAS.ID_CLIENTE=SUCURSAL.ID_CLIENTE;
+```
+Anota el resultado obtenido en su tiempo de ejecucion. ¿Que observas?
