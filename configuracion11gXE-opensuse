@@ -1,0 +1,8 @@
+Para configurar en opensuse es muy importante que una vez instalada la version del 11g xe con su paquete rpm, junto con su etc/init.d hagas lo siuiente
+
+1. Con yast te vas a users and groups y alli vas a ire al osucario de oracle que tiene privilegio d dba, le cambais el password y ya aceptas los cambios
+2. En el menu inicio de kde te vas a power sesio y esochge nueva sesio, alli agarras la de oracle
+3. estado en la sesion de oracle te vas a Yast y de alli a firewañll
+despues te vas a Allowed Services y te fijas que por defecto del menu de las dereche este activado or defecto External Zones
+4. Le das al boton de advanced y en la ventana que aparece pones en TCP port el 1521 y en UDP pports en 8098 (si es que ese escogiste en la
+fonfiguarcion), das OK el boton de siguiente y listo!!! ya puedes irte a el menu de inicio y seleccionar get started y trabajar como siempre.
