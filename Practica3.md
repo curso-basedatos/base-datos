@@ -48,5 +48,5 @@ SELECT * FROM SUCURSAL;
 
 ```
 ###Actividades
-1. Desarrollar un bLoque PL SQL que  utilizando un cursor nos de el nombre del empleaod y las ventas que este hizo. Utilizar para ello un cursor explicito.
+1. Desarrollar un bLoque PL SQL que  utilizando un cursor nos de el nombre del empledo y su sueldo base. Utilizar para ello un cursor explicito.
 
