@@ -17,8 +17,7 @@ SET serveroutput ON;
 ```
 2. Generar una secuencia que se incremente de 1 un en 1
 
-3. Generar un procedimiento almacenado para guardar un nuevo libro, en el formato de fecha debes de colocarlo como dia-mes-año
-separado con guines medios, para ello vas a utilizar la siguiente función de Oracle
+3. Generar un procedimiento almacenado para guardar un nuevo libro, en el formato de fecha debes de colocarlo como dia-mes-año separado con guiones medios, para ello vas a utilizar la siguiente función de Oracle y en el procedimiento debes de colocar como  argumentos de entrada dia, mes y anio
 ```sql
 my_fecha:=to_date(''||dia||'-'||mes||'-'||anio);
 ```
